@@ -1,6 +1,8 @@
 import { Inter } from "next/font/google";
 import ThemeRegistry from "../theme/ThemeRegistry";
 import "./globals.scss";
+import AboutSection from "../components/AboutSection";
+import ProjectsSection from "../components/ProjectsSection";
 
 import FooterForm from "../components/footer";
 
@@ -20,7 +22,9 @@ export default function RootLayout({ children }) {
         suppressHydrationWarning
       >
         <ThemeRegistry>
-          {children}
+          {/* {children} */}
+          <AboutSection />
+          <ProjectsSection />
           <FooterForm />
         </ThemeRegistry>
       </body>

@@ -12,10 +12,12 @@
     "@emotion/cache": "^11.11.0",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
+    "@heroicons/react": "^2.0.18",
     "@mui/material": "^5.14.20",
     "@reduxjs/toolkit": "^2.0.1",
     "axios": "^1.6.2",
     "cookies-next": "^4.1.0",
+    "framer-motion": "^10.16.16",
     "js-base64": "^3.7.5",
     "moment": "^2.29.4",
     "next": "14.0.3",
@@ -23,7 +25,8 @@
     "react-dom": "^18",
     "react-icons": "^4.12.0",
     "react-redux": "^9.0.2",
-    "sweetalert2": "^11.10.1"
+    "sweetalert2": "^11.10.1",
+    "swiper": "^11.0.5"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
