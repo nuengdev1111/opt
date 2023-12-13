@@ -13,6 +13,10 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
+    backgroundImage: {
+      // hero: 'url(/hero/bg-4.jpg)',
+      hero2: 'url(/hero/bg-4.jpg)',
+    }
   },
   plugins: [],
 }

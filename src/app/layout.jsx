@@ -3,6 +3,8 @@ import ThemeRegistry from "../theme/ThemeRegistry";
 import "./globals.scss";
 import AboutSection from "../components/AboutSection";
 import ProjectsSection from "../components/ProjectsSection";
+import Hero from "../components/Hero";
+import Hero2 from "../components/Hero2";
 
 import FooterForm from "../components/footer";
 
@@ -23,6 +25,7 @@ export default function RootLayout({ children }) {
       >
         <ThemeRegistry>
           {/* {children} */}
+          <Hero2 />
           <AboutSection />
           <ProjectsSection />
           <FooterForm />
